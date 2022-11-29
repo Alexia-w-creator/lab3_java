@@ -14,7 +14,7 @@ public class Timer {
         list = _list;
     }
 
-    public void addTimerAp()
+    public void addTimer()
     {
         int i = 0;
         StopWatch stopWatch = new StopWatch();
@@ -30,7 +30,7 @@ public class Timer {
         System.out.println("            \t"+stopWatch.getTime());
     }
 
-    public void deleteTimerAp()
+    public void deleteTimer()
     {
         int i = 0;
         StopWatch stopWatch = new StopWatch();
@@ -46,7 +46,7 @@ public class Timer {
         System.out.println("        \t"+stopWatch.getTime());
     }
 
-    public void getTimerAp()
+    public void getTimer()
     {
         int i = 0;
         StopWatch stopWatch = new StopWatch();
@@ -62,7 +62,7 @@ public class Timer {
         System.out.println("            \t"+stopWatch.getTime());
     }
 
-    public void setTimerAp()
+    public void setTimer()
     {
         int i = 0;
         StopWatch stopWatch = new StopWatch();
@@ -78,7 +78,7 @@ public class Timer {
         System.out.println("            \t"+stopWatch.getTime());
     }
 
-    public void containsTimerAp()
+    public void containsTimer()
     {
         int i = 0;
         StopWatch stopWatch = new StopWatch();
@@ -94,7 +94,7 @@ public class Timer {
         System.out.println("            \t"+stopWatch.getTime());
     }
 
-    public void sizeTimerAp()
+    public void sizeTimer()
     {
         int i = 0;
         StopWatch stopWatch = new StopWatch();
